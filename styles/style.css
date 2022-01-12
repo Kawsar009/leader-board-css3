@@ -118,15 +118,34 @@ Courses Style
   column-gap: 24px;
 }
 
+.course {
+  padding: 12px;
+  box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.15);
+}
+
+.course-banner {
+  margin-bottom: 20px;
+}
+
 .course .course-banner img {
   width: 224px;
   height: 104px;
+}
+
+.course-author {
+  color: #ed6b4f;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .course-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.course-bottom p {
+  font-size: 15px;
 }
 
 .fa-star {
@@ -139,6 +158,14 @@ Courses Style
 
 .fa-star.empty {
   color: #aeaeae;
+}
+
+.course-duration {
+  font-size: 15px;
+  color: #ff4a60;
+  background-color: #ffe4e8;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 /* Media Queries */
